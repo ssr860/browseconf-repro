@@ -1,0 +1,32 @@
+phase,priority,model,benchmark,method,num_questions,n_max,k_or_tau,repeats,purpose,new_agent_calls
+smoke,P0,gpt-oss-120b,handwritten,parser_and_state_machine,10,3,tau=80,1,Validate parser policies overflow and logs,yes
+judge_validation,P0,judge,handwritten,oracle_and_negative_fixtures,50,1,NA,1,Validate grading and regex parsing,no
+pilot,P0,gpt-oss-120b,BrowseComp,fixed_pool,20,10,NA,1,Estimate accuracy diversity failures and cost,yes
+pilot,P0,gpt-oss-120b,BrowseComp,BrowseConf-Zero,20,10,k=10,1,Validate adaptive early stopping,yes
+pilot,P0,gpt-oss-120b,BrowseComp,BrowseConf-Summary,20,10,k=10,1,Validate trajectory carryover and summary accounting,yes
+pilot,P0,gpt-oss-120b,BrowseComp,BrowseConf-Neg,20,10,k=10,1,Validate negative constraints,yes
+pilot,P0,gpt-oss-120b,BrowseComp-ZH,fixed_pool,20,10,NA,1,Validate Chinese tool and judge path,yes
+calibration,P0,gpt-oss-120b,SailorFog-QA-500,single_pass,500,1,"k=5|10|20",1,Select tau without test leakage,yes
+calibration,P0,DeepSeek-V3.1,SailorFog-QA-500,single_pass,500,1,"k=5|10|20",1,Select tau without test leakage,yes
+main_fixed,P0,gpt-oss-120b,BrowseComp,fixed_pool_for_Pass_SC_CISC,1266,10,NA,1,Reproduce fixed baselines,yes
+main_fixed,P0,gpt-oss-120b,BrowseComp-ZH,fixed_pool_for_Pass_SC_CISC,289,10,NA,1,Reproduce fixed baselines,yes
+main_fixed,P0,DeepSeek-V3.1,BrowseComp,fixed_pool_for_Pass_SC_CISC,1266,10,NA,1,Reproduce fixed baselines,yes
+main_fixed,P0,DeepSeek-V3.1,BrowseComp-ZH,fixed_pool_for_Pass_SC_CISC,289,10,NA,1,Reproduce fixed baselines,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp,BrowseConf-Zero,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp,BrowseConf-Summary,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp,BrowseConf-Neg,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp-ZH,BrowseConf-Zero,289,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp-ZH,BrowseConf-Summary,289,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,gpt-oss-120b,BrowseComp-ZH,BrowseConf-Neg,289,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp,BrowseConf-Zero,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp,BrowseConf-Summary,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp,BrowseConf-Neg,1266,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp-ZH,BrowseConf-Zero,289,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp-ZH,BrowseConf-Summary,289,10,k=10,1,Reproduce Table 1,yes
+main_adaptive,P0,DeepSeek-V3.1,BrowseComp-ZH,BrowseConf-Neg,289,10,k=10,1,Reproduce Table 1,yes
+ablation,P1,gpt-oss-120b,BrowseComp,all_BrowseConf_variants,1266,10,"k=5|10|20",1,Reproduce confidence threshold ablation,maybe
+ablation,P1,gpt-oss-120b,BrowseComp,BrowseConf-Zero,1266,"1|2|3|4|5|6|7|8|9|10","k=5|10|20",1,Reproduce attempt limit curve,mostly_no_if_pool_saved
+ablation,P1,DeepSeek-V3.1,BrowseComp,interaction_delta,1266,10,k=10,1,Reproduce consecutive interaction change,no_if_logs_saved
+audit,P1,all,all,CISC_temperature_sweep,all,10,"T=1|2|5|10|20|50|100|inf",1,Quantify unspecified CISC parameter,no
+audit,P1,all,all,answer_clustering_sensitivity,all,10,"string|semantic",1,Quantify unspecified free-form aggregation,no
+extension,P2,all,all,cost_matched_comparison,all,dynamic,equal_tokens_or_cost,1,Test claim under true all-in compute budget,maybe

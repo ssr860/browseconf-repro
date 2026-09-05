@@ -1,0 +1,61 @@
+{
+  "backend": "official-deepresearch",
+  "cache_dir": "artifacts/cache",
+  "agent_model": {
+    "model_id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "api_key_env": "AGENT_MODEL_API_KEY",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 10000,
+    "timeout_seconds": 600,
+    "max_retries": 10
+  },
+  "summary_model": {
+    "model_id": "replace-with-summary-model",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "SUMMARY_MODEL_API_KEY",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "timeout_seconds": 300,
+    "max_retries": 2
+  },
+  "judge_model": {
+    "model_id": "gpt-4o-2024-08-06",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "JUDGE_MODEL_API_KEY",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "timeout_seconds": 100,
+    "max_retries": 5,
+    "judge_attempts": 5,
+    "retry_delay_seconds": 3
+  },
+  "search": {
+    "api_key_env": "SERPER_KEY_ID",
+    "top_k": 10,
+    "timeout_seconds": 30,
+    "retries": 5
+  },
+  "visit": {
+    "api_key_env": "JINA_API_KEYS",
+    "timeout_seconds": 50,
+    "request_retries": 3,
+    "outer_retries": 8,
+    "max_page_tokens": 95000,
+    "summary_temperature": 0.7,
+    "summary_retries": 3,
+    "parse_retries": 3,
+    "batch_timeout_seconds": 900
+  },
+  "agent": {
+    "max_interactions": 100,
+    "max_context_tokens": 112640,
+    "max_output_tokens": 10000,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "presence_penalty": 1.1,
+    "logprobs": true,
+    "max_duration_seconds": 9000
+  }
+}

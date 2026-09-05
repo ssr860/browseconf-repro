@@ -1,0 +1,15 @@
+{
+  "backend": "offline-mock",
+  "offline": {
+    "protocol": "official-deepresearch",
+    "agent_responses": [
+      "<answer>Answer: offline answer\nConfidence: 96</answer>"
+    ],
+    "summary_responses": [],
+    "judge_responses": [
+      "{\"extracted_final_answer\":\"offline answer\",\"reasoning\":\"matches\",\"correct\":\"yes\",\"confidence\":96,\"strict\":true}"
+    ],
+    "search_result": "offline search result",
+    "visit_result": "offline page evidence"
+  }
+}

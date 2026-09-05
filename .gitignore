@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+configs/local.json
+configs/*.local.json
+
+artifacts/
+log/
+tmp/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/

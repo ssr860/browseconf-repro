@@ -1,0 +1,265 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amir et~al.(2025)Amir, Tom, Eran, Amir, Ariel, Zorik, and Gal]{Taubenfeld2025cisc}
+Taubenfeld Amir, Sheffer Tom, Ofek Eran, Feder Amir, Goldstein Ariel, Gekhman Zorik, and Yona Gal.
+\newblock Confidence improves self-consistency in llms.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2025}, pp.\  20090–20111. Association for Computational Linguistics, 2025.
+\newblock \doi{10.18653/v1/2025.findings-acl.1030}.
+\newblock URL \url{http://dx.doi.org/10.18653/v1/2025.findings-acl.1030}.
+
+\bibitem[Barres et~al.(2025)Barres, Dong, Ray, Si, and Narasimhan]{barres2025tau2benchevaluatingconversationalagents}
+Victor Barres, Honghua Dong, Soham Ray, Xujie Si, and Karthik Narasimhan.
+\newblock $\tau^2$-bench: Evaluating conversational agents in a dual-control environment, 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.07982}.
+
+\bibitem[Chen et~al.(2025{\natexlab{a}})Chen, Raventos, Cheng, Ganguli, and Druckmann]{chen2025rethinkingfinetuningscalingtesttime}
+Feng Chen, Allan Raventos, Nan Cheng, Surya Ganguli, and Shaul Druckmann.
+\newblock Rethinking fine-tuning when scaling test-time compute: Limiting confidence improves mathematical reasoning, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2502.07154}.
+
+\bibitem[Chen et~al.(2025{\natexlab{b}})Chen, Song, Niu, Zhang, Ou, Lu, Zhang, Cong, Lin, Liu, and Sun]{chen2025toleaprethinkingdevelopmenttool}
+Haotian Chen, Zijun Song, Boye Niu, Ke~Zhang, Litu Ou, Yaxi Lu, Zhong Zhang, Xin Cong, Yankai Lin, Zhiyuan Liu, and Maosong Sun.
+\newblock Toleap: Rethinking development of tool learning with large language models, 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2505.11833}.
+
+\bibitem[Chhikara(2025)]{chhikara2025mindconfidencegapoverconfidence}
+Prateek Chhikara.
+\newblock Mind the confidence gap: Overconfidence, calibration, and distractor effects in large language models, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.11028}.
+
+\bibitem[DeepSeek-AI(2024)]{deepseekai2024deepseekv3technicalreport}
+DeepSeek-AI.
+\newblock Deepseek-v3 technical report, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.19437}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibrationmodernneuralnetworks}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks, 2017.
+\newblock URL \url{https://arxiv.org/abs/1706.04599}.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distillingknowledgeneuralnetwork}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network, 2015.
+\newblock URL \url{https://arxiv.org/abs/1503.02531}.
+
+\bibitem[Huang et~al.(2025)Huang, Huang, Leng, Liu, and Huang]{huang2025efficienttesttimescalingselfcalibration}
+Chengsong Huang, Langlin Huang, Jixuan Leng, Jiacheng Liu, and Jiaxin Huang.
+\newblock Efficient test-time scaling via self-calibration, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.00031}.
+
+\bibitem[Jimenez et~al.(2024)Jimenez, Yang, Wettig, Yao, Pei, Press, and Narasimhan]{jimenez2024swebench}
+Carlos~E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik~R Narasimhan.
+\newblock {SWE}-bench: Can language models resolve real-world github issues?
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=VTF8yNQM66}.
+
+\bibitem[John(2000)]{platt1999probabilistic}
+Platt John.
+\newblock Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods.
+\newblock \emph{Adv. Large Margin Classif.}, 10, 06 2000.
+
+\bibitem[Kadavath et~al.(2022)Kadavath, Conerly, Askell, Henighan, Drain, Perez, Schiefer, Hatfield-Dodds, DasSarma, Tran-Johnson, Johnston, El-Showk, Jones, Elhage, Hume, Chen, Bai, Bowman, Fort, Ganguli, Hernandez, Jacobson, Kernion, Kravec, Lovitt, Ndousse, Olsson, Ringer, Amodei, Brown, Clark, Joseph, Mann, McCandlish, Olah, and Kaplan]{kadavath2022languagemodelsmostlyknow}
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Tran-Johnson, Scott Johnston, Sheer El-Showk, Andy Jones, Nelson Elhage, Tristan Hume, Anna Chen, Yuntao Bai, Sam Bowman, Stanislav Fort, Deep Ganguli, Danny Hernandez, Josh Jacobson, Jackson Kernion, Shauna Kravec, Liane Lovitt, Kamal Ndousse, Catherine Olsson, Sam Ringer, Dario Amodei, Tom Brown, Jack Clark, Nicholas Joseph, Ben Mann, Sam McCandlish, Chris Olah, and Jared Kaplan.
+\newblock Language models (mostly) know what they know, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.05221}.
+
+\bibitem[Kalai et~al.(2025)Kalai, Nachum, Vempala, and Zhang]{kalai2025languagemodelshallucinate}
+Adam~Tauman Kalai, Ofir Nachum, Santosh~S. Vempala, and Edwin Zhang.
+\newblock Why language models hallucinate, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.04664}.
+
+\bibitem[Kapoor et~al.(2024)Kapoor, Gruver, Roberts, Pal, Dooley, Goldblum, and Wilson]{kapoor-etal-2024-calibration}
+Sanyam Kapoor, Nate Gruver, Manley Roberts, Arka Pal, Samuel Dooley, Micah Goldblum, and Andrew Wilson.
+\newblock Calibration-tuning: Teaching large language models to know what they don{'}t know.
+\newblock In Ra{\'u}l V{\'a}zquez, Hande Celikkanat, Dennis Ulmer, J{\"o}rg Tiedemann, Swabha Swayamdipta, Wilker Aziz, Barbara Plank, Joris Baan, and Marie-Catherine de~Marneffe (eds.), \emph{Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024)}, pp.\  1--14, St Julians, Malta, March 2024. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2024.uncertainlp-1.1/}.
+
+\bibitem[Kapoor et~al.(2025)Kapoor, Gruver, Roberts, Collins, Pal, Bhatt, Weller, Dooley, Goldblum, and Wilson]{kapoor2025largelanguagemodelstaught}
+Sanyam Kapoor, Nate Gruver, Manley Roberts, Katherine Collins, Arka Pal, Umang Bhatt, Adrian Weller, Samuel Dooley, Micah Goldblum, and Andrew~Gordon Wilson.
+\newblock Large language models must be taught to know what they don't know, 2025.
+\newblock URL \url{https://arxiv.org/abs/2406.08391}.
+
+\bibitem[Kossen et~al.(2024)Kossen, Han, Razzak, Schut, Malik, and Gal]{kossen2024semanticentropyprobesrobust}
+Jannik Kossen, Jiatong Han, Muhammed Razzak, Lisa Schut, Shreshth Malik, and Yarin Gal.
+\newblock Semantic entropy probes: Robust and cheap hallucination detection in llms, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.15927}.
+
+\bibitem[Kotelanski et~al.(2023)Kotelanski, Gallo, Nayak, and Savage]{kotelanski2023methodsestimatelargelanguage}
+Maia Kotelanski, Robert Gallo, Ashwin Nayak, and Thomas Savage.
+\newblock Methods to estimate large language model confidence, 2023.
+\newblock URL \url{https://arxiv.org/abs/2312.03733}.
+
+\bibitem[Leng et~al.(2025)Leng, Huang, Zhu, and Huang]{leng2025tamingoverconfidencellmsreward}
+Jixuan Leng, Chengsong Huang, Banghua Zhu, and Jiaxin Huang.
+\newblock Taming overconfidence in llms: Reward calibration in rlhf, 2025.
+\newblock URL \url{https://arxiv.org/abs/2410.09724}.
+
+\bibitem[Li et~al.(2025{\natexlab{a}})Li, Zhang, Yin, Zhang, Ou, Wu, Yin, Li, Tao, Wang, Shen, Zhang, Zhang, Wu, Jiang, Yan, Xie, Huang, and Zhou]{li2025websailornavigatingsuperhumanreasoning}
+Kuan Li, Zhongwang Zhang, Huifeng Yin, Liwen Zhang, Litu Ou, Jialong Wu, Wenbiao Yin, Baixuan Li, Zhengwei Tao, Xinyu Wang, Weizhou Shen, Junkai Zhang, Dingchu Zhang, Xixi Wu, Yong Jiang, Ming Yan, Pengjun Xie, Fei Huang, and Jingren Zhou.
+\newblock Websailor: Navigating super-human reasoning for web agent, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2507.02592}.
+
+\bibitem[Li et~al.(2025{\natexlab{b}})Li, Shen, Yao, Ding, Miao, Krishnan, and Padman]{li2025singleturnsurveymultiturninteractions}
+Yubo Li, Xiaobin Shen, Xinyu Yao, Xueying Ding, Yidi Miao, Ramayya Krishnan, and Rema Padman.
+\newblock Beyond single-turn: A survey on multi-turn interactions with large language models, 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2504.04717}.
+
+\bibitem[Li et~al.(2025{\natexlab{c}})Li, Wang, Huang, and Liu]{li2025graphbasedconfidencecalibrationlarge}
+Yukun Li, Sijia Wang, Lifu Huang, and Li-Ping Liu.
+\newblock Graph-based confidence calibration for large language models, 2025{\natexlab{c}}.
+\newblock URL \url{https://arxiv.org/abs/2411.02454}.
+
+\bibitem[Liu et~al.(2024)Liu, Dou, Wang, Peng, and Yue]{liu-etal-2024-uncertainty}
+Hao Liu, Zi-Yi Dou, Yixin Wang, Nanyun Peng, and Yisong Yue.
+\newblock Uncertainty calibration for tool-using language agents.
+\newblock In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen (eds.), \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pp.\  16781--16805, Miami, Florida, USA, November 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.findings-emnlp.978}.
+\newblock URL \url{https://aclanthology.org/2024.findings-emnlp.978/}.
+
+\bibitem[Mahdi et~al.(2015)Mahdi, Gregory, and Milos]{ece2015obtaining}
+Pakdaman~Naeini Mahdi, Cooper Gregory, and Hauskrecht Milos.
+\newblock Obtaining well calibrated probabilities using bayesian binning.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, 29\penalty0 (1), Feb. 2015.
+\newblock \doi{10.1609/aaai.v29i1.9602}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/9602}.
+
+\bibitem[Nixon et~al.(2020)Nixon, Dusenberry, Jerfel, Nguyen, Liu, Zhang, and Tran]{nixon2020measuringcalibrationdeeplearning}
+Jeremy Nixon, Mike Dusenberry, Ghassen Jerfel, Timothy Nguyen, Jeremiah Liu, Linchuan Zhang, and Dustin Tran.
+\newblock Measuring calibration in deep learning, 2020.
+\newblock URL \url{https://arxiv.org/abs/1904.01685}.
+
+\bibitem[OpenAI(2025)]{openai2025gptoss120bgptoss20bmodel}
+OpenAI.
+\newblock gpt-oss-120b gpt-oss-20b model card, 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.10925}.
+
+\bibitem[OpenAI et~al.(2024)OpenAI, Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, Avila, Babuschkin, Balaji, Balcom, Baltescu, Bao, Bavarian, Belgum, Bello, Berdine, Bernadett-Shapiro, Berner, Bogdonoff, Boiko, Boyd, Brakman, Brockman, Brooks, Brundage, Button, Cai, Campbell, Cann, Carey, Carlson, Carmichael, Chan, Chang, Chantzis, Chen, Chen, Chen, Chen, Chen, Chess, Cho, Chu, Chung, Cummings, Currier, Dai, Decareaux, Degry, Deutsch, Deville, Dhar, Dohan, Dowling, Dunning, Ecoffet, Eleti, Eloundou, Farhi, Fedus, Felix, Fishman, Forte, Fulford, Gao, Georges, Gibson, Goel, Gogineni, Goh, Gontijo-Lopes, Gordon, Grafstein, Gray, Greene, Gross, Gu, Guo, Hallacy, Han, Harris, He, Heaton, Heidecke, Hesse, Hickey, Hickey, Hoeschele, Houghton, Hsu, Hu, Hu, Huizinga, Jain, Jain, Jang, Jiang, Jiang, Jin, Jin, Jomoto, Jonn, Jun, Kaftan, Łukasz Kaiser, Kamali, Kanitscheider, Keskar, Khan, Kilpatrick, Kim, Kim, Kim, Kirchner, Kiros, Knight, Kokotajlo, Łukasz Kondraciuk, Kondrich,
+  Konstantinidis, Kosic, Krueger, Kuo, Lampe, Lan, Lee, Leike, Leung, Levy, Li, Lim, Lin, Lin, Litwin, Lopez, Lowe, Lue, Makanju, Malfacini, Manning, Markov, Markovski, Martin, Mayer, Mayne, McGrew, McKinney, McLeavey, McMillan, McNeil, Medina, Mehta, Menick, Metz, Mishchenko, Mishkin, Monaco, Morikawa, Mossing, Mu, Murati, Murk, Mély, Nair, Nakano, Nayak, Neelakantan, Ngo, Noh, Ouyang, O'Keefe, Pachocki, Paino, Palermo, Pantuliano, Parascandolo, Parish, Parparita, Passos, Pavlov, Peng, Perelman, de~Avila Belbute~Peres, Petrov, de~Oliveira~Pinto, Michael, Pokorny, Pokrass, Pong, Powell, Power, Power, Proehl, Puri, Radford, Rae, Ramesh, Raymond, Real, Rimbach, Ross, Rotsted, Roussez, Ryder, Saltarelli, Sanders, Santurkar, Sastry, Schmidt, Schnurr, Schulman, Selsam, Sheppard, Sherbakov, Shieh, Shoker, Shyam, Sidor, Sigler, Simens, Sitkin, Slama, Sohl, Sokolowsky, Song, Staudacher, Such, Summers, Sutskever, Tang, Tezak, Thompson, Tillet, Tootoonchian, Tseng, Tuggle, Turley, Tworek, Uribe, Vallone, Vijayvergiya,
+  Voss, Wainwright, Wang, Wang, Wang, Ward, Wei, Weinmann, Welihinda, Welinder, Weng, Weng, Wiethoff, Willner, Winter, Wolrich, Wong, Workman, Wu, Wu, Wu, Xiao, Xu, Yoo, Yu, Yuan, Zaremba, Zellers, Zhang, Zhang, Zhao, Zheng, Zhuang, Zhuk, and Zoph]{openai2024gpt4technicalreport}
+OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung~Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón~Posada Fishman, Juston Forte, Isabella Fulford, Leo
+  Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang~Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish~Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong~Wook Kim, Christina Kim, Yongjik Kim, Jan~Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak~Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan
+  Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott~Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de~Avila Belbute~Peres, Michael Petrov, Henrique~Ponde de~Oliveira~Pinto, Michael, Pokorny, Michelle Pokrass, Vitchyr~H. Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez,
+  Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe~Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine~B. Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe~Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin~Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ~Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia
+  Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret Zoph.
+\newblock Gpt-4 technical report, 2024.
+\newblock URL \url{https://arxiv.org/abs/2303.08774}.
+
+\bibitem[Patil et~al.(2025)Patil, Mao, Cheng-Jie~Ji, Yan, Suresh, Stoica, and E.~Gonzalez]{patil2025bfcl}
+Shishir~G. Patil, Huanzhi Mao, Charlie Cheng-Jie~Ji, Fanjia Yan, Vishnu Suresh, Ion Stoica, and Joseph E.~Gonzalez.
+\newblock The berkeley function calling leaderboard (bfcl): From tool use to agentic evaluation of large language models.
+\newblock In \emph{Forty-second International Conference on Machine Learning}, 2025.
+
+\bibitem[Phan et~al.(2025)]{phan2025humanitysexam}
+Long Phan et~al.
+\newblock Humanity's last exam, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.14249}.
+
+\bibitem[Prabhudesai et~al.(2025)Prabhudesai, Chen, Ippoliti, Fragkiadaki, Liu, and Pathak]{prabhudesai2025maximizingconfidenceimprovesreasoning}
+Mihir Prabhudesai, Lili Chen, Alex Ippoliti, Katerina Fragkiadaki, Hao Liu, and Deepak Pathak.
+\newblock Maximizing confidence alone improves reasoning, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.22660}.
+
+\bibitem[Tao et~al.(2024)Tao, Yao, Ding, Xie, Cao, Sun, Gao, Shen, and Ding]{tao2024trustllmsaligningconfidence}
+Shuchang Tao, Liuyi Yao, Hanxing Ding, Yuexiang Xie, Qi~Cao, Fei Sun, Jinyang Gao, Huawei Shen, and Bolin Ding.
+\newblock When to trust llms: Aligning confidence with response quality, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.17287}.
+
+\bibitem[Tian et~al.(2023)Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn, and Manning]{tian2023justaskcalibrationstrategies}
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov, Huaxiu Yao, Chelsea Finn, and Christopher~D. Manning.
+\newblock Just ask for calibration: Strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.14975}.
+
+\bibitem[Tian et~al.(2025)Tian, Zhao, Wang, Chen, Ji, Peng, Zhao, and Li]{tian2025thinktwiceenhancingllm}
+Xiaoyu Tian, Sitong Zhao, Haotian Wang, Shuaiting Chen, Yunjie Ji, Yiping Peng, Han Zhao, and Xiangang Li.
+\newblock Think twice: Enhancing llm reasoning by scaling multi-round test-time thinking, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.19855}.
+
+\bibitem[Wang et~al.(2024)Wang, Szarvas, Balazs, Danchenko, and Ernst]{wang2024calibratingverbalizedprobabilitieslarge}
+Cheng Wang, Gyuri Szarvas, Georges Balazs, Pavel Danchenko, and Patrick Ernst.
+\newblock Calibrating verbalized probabilities for large language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.06707}.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery, and Zhou]{wang2023selfconsistencyimproveschainthought}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2203.11171}.
+
+\bibitem[Wei et~al.(2025)Wei, Sun, Papay, McKinney, Han, Fulford, Chung, Passos, Fedus, and Glaese]{wei2025browsecompsimplechallengingbenchmark}
+Jason Wei, Zhiqing Sun, Spencer Papay, Scott McKinney, Jeffrey Han, Isa Fulford, Hyung~Won Chung, Alex~Tachard Passos, William Fedus, and Amelia Glaese.
+\newblock Browsecomp: A simple yet challenging benchmark for browsing agents, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.12516}.
+
+\bibitem[Wu et~al.(2025)Wu, Yin, Jiang, Wang, Xi, Fang, Zhang, He, Zhou, Xie, and Huang]{wu2025webwalkerbenchmarkingllmsweb}
+Jialong Wu, Wenbiao Yin, Yong Jiang, Zhenglin Wang, Zekun Xi, Runnan Fang, Linhai Zhang, Yulan He, Deyu Zhou, Pengjun Xie, and Fei Huang.
+\newblock Webwalker: Benchmarking llms in web traversal, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.07572}.
+
+\bibitem[Xia et~al.(2025)Xia, Qin, Li, Ma, Fan, Chern, Zou, Zhou, Hu, Jin, He, Ye, Liu, and Liu]{xia2025generativeaiactii}
+Shijie Xia, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou, Fan Zhou, Xiangkun Hu, Jiahe Jin, Yanheng He, Yixin Ye, Yixiu Liu, and Pengfei Liu.
+\newblock Generative ai act ii: Test time scaling drives cognition engineering, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.13828}.
+
+\bibitem[Yang et~al.(2024)Yang, Tsai, and Yamada]{yang2024verbalizedconfidencescoresllms}
+Daniel Yang, Yao-Hung~Hubert Tsai, and Makoto Yamada.
+\newblock On verbalized confidence scores for llms, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.14737}.
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and Cao]{yao2023react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao.
+\newblock React: Synergizing reasoning and acting in language models.
+\newblock In \emph{International Conference on Learning Representations (ICLR)}, 2023.
+
+\bibitem[Yao et~al.(2024)Yao, Shinn, Razavi, and Narasimhan]{yao2024taubenchbenchmarktoolagentuserinteraction}
+Shunyu Yao, Noah Shinn, Pedram Razavi, and Karthik Narasimhan.
+\newblock $\tau$-bench: A benchmark for tool-agent-user interaction in real-world domains, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.12045}.
+
+\bibitem[Zadrozny \& Elkan(2002)Zadrozny and Elkan]{zadrozny2002transforming}
+Bianca Zadrozny and Charles Elkan.
+\newblock Transforming classifier scores into accurate multiclass probability estimates.
+\newblock In \emph{Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}, KDD '02, pp.\  694–699, New York, NY, USA, 2002. Association for Computing Machinery.
+\newblock ISBN 158113567X.
+\newblock \doi{10.1145/775047.775151}.
+\newblock URL \url{https://doi.org/10.1145/775047.775151}.
+
+\bibitem[Zhang et~al.(2024)Zhang, Huang, Shi, Guo, Peng, Yan, Zhou, and Qiu]{zhang2024calibratingconfidencelargelanguage}
+Mozhi Zhang, Mianqiu Huang, Rundong Shi, Linsen Guo, Chong Peng, Peng Yan, Yaqian Zhou, and Xipeng Qiu.
+\newblock Calibrating the confidence of large language models by eliciting fidelity, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.02655}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{a}})Zhang, Lyu, Sun, Wang, Zhang, Hua, Wu, Guo, Wang, Muennighoff, King, Liu, and Ma]{zhang2025surveytesttimescalinglarge}
+Qiyuan Zhang, Fuyuan Lyu, Zexu Sun, Lei Wang, Weixu Zhang, Wenyue Hua, Haolun Wu, Zhihan Guo, Yufei Wang, Niklas Muennighoff, Irwin King, Xue Liu, and Chen Ma.
+\newblock A survey on test-time scaling in large language models: What, how, where, and how well?, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2503.24235}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{b}})Zhang, Shi, Wang, Wang, He, Li, Chen, Han, Xu, Zhang, Metaxas, and Wang]{zhang2025tokurtokenleveluncertaintyestimation}
+Tunyu Zhang, Haizhou Shi, Yibin Wang, Hengyi Wang, Xiaoxiao He, Zhuowei Li, Haoxian Chen, Ligong Han, Kai Xu, Huan Zhang, Dimitris Metaxas, and Hao Wang.
+\newblock Tokur: Token-level uncertainty estimation for large language model reasoning, 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2505.11737}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{c}})Zhang, Liu, and Patras]{zhang2025gracegenerativeapproachbetter}
+Zhaohan Zhang, Ziquan Liu, and Ioannis Patras.
+\newblock Grace: A generative approach to better confidence elicitation in large language models, 2025{\natexlab{c}}.
+\newblock URL \url{https://arxiv.org/abs/2509.09438}.
+
+\bibitem[Zhao et~al.(2024)Zhao, Zhao, Liu, Cheng, Sun, Oishi, Osaki, Matsuda, Yao, and Chen]{zhao2024saupsituationawarenessuncertainty}
+Qiwei Zhao, Xujiang Zhao, Yanchi Liu, Wei Cheng, Yiyou Sun, Mika Oishi, Takao Osaki, Katsushi Matsuda, Huaxiu Yao, and Haifeng Chen.
+\newblock Saup: Situation awareness uncertainty propagation on llm agent, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.01033}.
+
+\bibitem[Zhou et~al.(2025{\natexlab{a}})Zhou, Leon, Ying, Zhang, Shao, Ye, Chong, Jin, Xie, Cao, Gu, Hong, Ren, Chen, Liu, and Hua]{zhou2025browsecompzhbenchmarkingwebbrowsing}
+Peilin Zhou, Bruce Leon, Xiang Ying, Can Zhang, Yifan Shao, Qichen Ye, Dading Chong, Zhiling Jin, Chenxuan Xie, Meng Cao, Yuxin Gu, Sixin Hong, Jing Ren, Jian Chen, Chao Liu, and Yining Hua.
+\newblock Browsecomp-zh: Benchmarking web browsing ability of large language models in chinese, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2504.19314}.
+
+\bibitem[Zhou et~al.(2025{\natexlab{b}})Zhou, Jin, Shi, and Li]{zhou2025steerconfsteeringllmsconfidence}
+Ziang Zhou, Tianyuan Jin, Jieming Shi, and Qing Li.
+\newblock Steerconf: Steering llms for confidence elicitation, 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2503.02863}.
+
+\end{thebibliography}
